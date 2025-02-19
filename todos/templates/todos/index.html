@@ -7,6 +7,14 @@
 {% block content %}
 <div class="container">
 
+  <div class="row">
+    <div class="offset-md-2 col-lg-9">
+      <div class="page-header text-center">
+        <h2 style="color: blue;">Sukanta is here</h2>
+      </div>
+    </div>
+  </div>
+
   <!-- title row -->
   <div class="row">
     <div class="offset-md-2 col-lg-9">
@@ -25,7 +33,7 @@
         {% csrf_token %}
         <div class="form-row">
           <div class="col-md-6">
-            <input type="text" class="form-control" name="title" placeholder="typing here" required>
+            <input type="text" class="form-control" name="title" placeholder="Typing here" required>
           </div>
           <div class="col-md-6">
             <button type="submit" name="submit" class="btn btn-outline-primary">
